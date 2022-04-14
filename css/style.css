@@ -6,6 +6,7 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
+.sub_botton{width: 200px; height: 45px; border: 1px solid #fff; margin: 0 auto; text-align: center; line-height: 45px; color: #fff; background-color: rgba(255,255,255,0.06); margin-top: 5%;}
 
 .p1-gradient-bg,
 .thumb .overlay-bg {
@@ -99,8 +100,10 @@ a:active {
 .site-navbar.bg-light {
   background: transparent !important;
 }
-
+@media (max-width: 1024px){.projectimg{width: 100%;}}
 @media (max-width: 991.98px) {
+  
+
   .site-navbar.bg-light {
     background: #fff !important;
     top: 0;
@@ -242,6 +245,7 @@ a:active {
 }
 
 @media (min-width: 768px) {
+  
   .site-hero h1 {
     font-size: 70px;
   }
@@ -519,6 +523,7 @@ a:active {
 }
 
 @media (max-width: 736px) {
+  
   .portfolio-area .filters ul li {
     padding: 6px 6px;
   }
